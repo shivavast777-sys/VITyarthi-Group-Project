@@ -408,7 +408,8 @@ class GradeApp:
             f"Total Students: {st['total']}\n"
             f"Max Marks: {st['max']}\n"
             f"Min Marks: {st['min']}\n"
-            f"Avg Marks: {st['avg']:.2f}"
+            f"Avg Marks: {st['avg']:.2f}\n \n"
+            f"Author: Anadi Rathore"
         )
         self.stats_label.config(text=text)
 
